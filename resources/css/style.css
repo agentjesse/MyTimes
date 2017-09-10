@@ -45,8 +45,10 @@ header nav a{
 
 /*main*/
 .main{
+  margin: 0 auto;
   display: flex;
-  position: relative;
+  width: 1232px;
+  justify-content: space-around;
   top:80px;
 }
 
