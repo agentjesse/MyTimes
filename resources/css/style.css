@@ -50,6 +50,7 @@ header nav a{
   width: 1232px;
   justify-content: space-around;
   padding-top:110px;
+  border: 1px solid black;
 }
 
 .main div{
