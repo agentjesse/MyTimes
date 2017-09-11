@@ -53,12 +53,13 @@ header nav a{
   width: 1232px;
   justify-content: space-around;
   padding-top:110px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
+/* working divs
 .main div{
   border: 1px solid black;
-}
+}*/
 
 .column{
   display: flex;
@@ -117,8 +118,9 @@ header nav a{
   background-image: url('../images/img-story-1.png');
 }
 
-.stories{
+.storyDuo{
   display: flex;
+  width: inherit;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -126,8 +128,22 @@ header nav a{
 .story{
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
 
-.subStory{
-  border: 1px solid black;
+.news-bites h3{
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite{
+  display: block;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  background-color: whitesmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: dimgray;
 }
