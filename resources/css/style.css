@@ -17,7 +17,7 @@ header{
   background-color: white;
 
 }
-
+/*padding for spans in navs, includes footer*/
 nav span{
   display: inline-block;
   padding: 20px 10px;
@@ -42,7 +42,8 @@ header nav{
   padding-right: 40px;
 }
 
-header nav a{
+/* ALL page links black*/
+a{
   color:black;
 }
 
@@ -53,6 +54,7 @@ header nav a{
   width: 1232px;
   justify-content: space-around;
   padding-top:110px;
+  margin-bottom: 70px;
   /*border: 1px solid black;*/
 }
 
@@ -85,6 +87,14 @@ header nav a{
 .article .img-txt span{
   margin-left: 20px;
   font-size: 40px;
+  text-align: left;
+}
+
+.story h2{
+  margin-top:0;
+  margin-bottom: 0;
+  font-family: georgia;
+  font-size: 30px;
 }
 
 .article p, .story p{
@@ -146,4 +156,30 @@ header nav a{
   font-family: verdana;
   font-size: 12px;
   color: dimgray;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: mediumaquamarine;
+  height: 325px;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.foot-txt .title{
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.foot-txt nav{
+  padding-left: 25px;
+  display: inline-block;
 }
